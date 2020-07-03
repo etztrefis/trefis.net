@@ -35,3 +35,20 @@ p{
     bottom: 0;
     width: 100%;
 }
+.hypertext{
+    color:#4e7cc7;
+}
+.hypertext:hover{
+    color:#4e7cc7;
+}
+.maintext{
+    font-family: 'Josefin Sans', sans-serif; /*delete to common font*/
+    font-size: 20px;
+    margin: 60px 0 0 0;
+}
+.maintext a{
+    color:#4e7cc7;
+}
+.mainimg{
+    margin: 100px 0 100px 0;
+}
