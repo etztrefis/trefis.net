@@ -5,7 +5,7 @@ function Footer() {
 		<footer>
 			<p>
 				© by{" "}
-				<a href="https://t.me/trefis" target="_blank" class="hypertext">
+				<a href="https://t.me/trefis" target="_blank" rel="noreferrer">
 					trefis
 				</a>{" "}
 				in 2020 ·
