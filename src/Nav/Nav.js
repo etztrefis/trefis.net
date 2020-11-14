@@ -54,7 +54,7 @@ function SiteNav() {
 						Source Code
 					</NavDropdown.Item>
 				</NavDropdown>
-				<Nav.Link href="#pricing">About</Nav.Link>
+				<Nav.Link href="/about">About</Nav.Link>
 			</Nav>
 		</Navbar>
 	);

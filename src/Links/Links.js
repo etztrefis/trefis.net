@@ -15,6 +15,7 @@ function Links() {
 					width="50"
 					height="50"
 					style={{ marginRight: "15px", marginLeft: "15px" }}
+					id="zoomIn"
 				></Image>
 			</a>
 			<a href="https://t.me/trefis" target="_blank" rel="noreferrer">
@@ -24,6 +25,7 @@ function Links() {
 					width="50"
 					height="50"
 					style={{ marginRight: "15px", marginLeft: "15px" }}
+					id="zoomIn"
 				></Image>
 			</a>
 			<a
@@ -37,6 +39,7 @@ function Links() {
 					width="50"
 					height="50"
 					style={{ marginRight: "15px", marginLeft: "15px" }}
+					id="zoomIn"
 				></Image>
 			</a>
 			<a href="mailto:trefis@pm.me" rel="noreferrer">
@@ -46,6 +49,7 @@ function Links() {
 					width="50"
 					height="50"
 					style={{ marginRight: "15px", marginLeft: "15px" }}
+					id="zoomIn"
 				></Image>
 			</a>
 			<a
@@ -59,6 +63,7 @@ function Links() {
 					width="50"
 					height="50"
 					style={{ marginRight: "15px", marginLeft: "15px" }}
+					id="zoomIn"
 				></Image>
 			</a>
 			<a
@@ -72,6 +77,7 @@ function Links() {
 					width="50"
 					height="50"
 					style={{ marginRight: "15px", marginLeft: "15px" }}
+					id="zoomIn"
 				></Image>
 			</a>
 		</div>
