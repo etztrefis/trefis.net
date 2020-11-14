@@ -1,19 +1,21 @@
-import Nav from "./Nav/Nav.js";
-import Main from "./Main/Main.js";
-import Links from "./Links/Links.js";
-import Footer from "./Footer/Footer.js";
+import React from "react";
+import { Route, Switch, BrowserRouter } from "react-router-dom";
+import HomePage from "./HomePage.js";
+import NotFound from "./NotFound.js";
 
 import "./App.css";
 
-function App() {
-	return (
-		<div>
-			<Nav />
-			<Main />
-			<Links />
-			<Footer />
-		</div>
-	);
+class App extends React.Component {
+	render() {
+		return (
+			<BrowserRouter>
+				<Switch>
+					<Route exact path="/" component={HomePage} />
+					<Route path="*" component={NotFound} />
+				</Switch>
+			</BrowserRouter>
+		);
+	}
 }
 
 export default App;
