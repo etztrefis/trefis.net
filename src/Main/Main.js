@@ -5,8 +5,8 @@ function Main() {
 		<div>
 			<img
 				src="./img/HACKERMANS.gif"
-				width="150"
-				height="150"
+				width="200"
+				height="200"
 				alt="Hackermans"
 				className="main-img"
 			/>

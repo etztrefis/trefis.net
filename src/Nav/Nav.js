@@ -16,7 +16,7 @@ function SiteNav() {
 					className="d-inline-block align-top"
 				/>{" "}
 			</Navbar.Brand>
-			<Nav className="mr-auto">
+			<Nav className="mr-auto" style={{ fontSize: "16px" }}>
 				<NavDropdown
 					title="peepoChat"
 					id="collasible-nav-dropdown"
