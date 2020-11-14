@@ -1,0 +1,19 @@
+.main-img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top:130px;
+}
+
+.main-text{
+    text-align: center;
+    position: relative;
+    top: 210px;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-text a{
+    color:#4e7cc7;
+}
