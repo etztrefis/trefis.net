@@ -11,7 +11,7 @@ function Main() {
 				className="main-img"
 			/>
 			<p className="main-text">
-				HELLO THERE. I'M <a href="https://trefis.net/about/">TREFIS</a>.
+				HELLO THERE. I'M <a href="https://trefis.net/about">TREFIS</a>.
 				WEB DEVELOPER & SOFTWARE ENGINEER
 			</p>
 		</div>

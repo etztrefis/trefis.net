@@ -3,7 +3,7 @@ import "./AboutMain.css";
 function Main() {
 	return (
 		<div>
-			<p className="main-text">Some text in here... soon</p>
+			<p className="main-text-here">Some text in here... soon</p>
 		</div>
 	);
 }

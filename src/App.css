@@ -1,4 +1,8 @@
-body{
-    background-color: black;
-    color: white;
+body {
+	background-color: black;
+	color: white;
+}
+
+.home-wrapper {
+	/* position: absolute; */
 }

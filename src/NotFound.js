@@ -7,7 +7,7 @@ import "./App.css";
 
 function HomePage() {
 	return (
-		<div>
+		<div className="home-wrapper">
 			<Helmet>
 				<title>trefis | 404 Error</title>
 			</Helmet>

@@ -7,7 +7,7 @@ import "./App.css";
 
 function AboutPage() {
 	return (
-		<div>
+		<div className="home-wrapper">
 			<Helmet>
 				<title>trefis | About</title>
 			</Helmet>

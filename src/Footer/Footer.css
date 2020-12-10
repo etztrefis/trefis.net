@@ -1,15 +1,14 @@
-footer a{
-    color:#4e7cc7;
+footer a {
+	color: #4e7cc7;
 }
 
-footer{
-    font-family: 'Nunito';
-    font-size: 18px;
-    position: fixed;
-	width: 100%;
-	left: 0;
-	bottom: 0;
+footer {
+	font-family: "Nunito";
+	font-size: 18px;
 	color: white;
-    text-align: center;
-    padding-bottom: 20px;
+	text-align: center;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -470px;
 }

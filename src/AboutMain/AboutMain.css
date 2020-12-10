@@ -1,19 +1,13 @@
-.main-img{
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    top:130px;
+.main-text-here {
+	text-align: center;
+	position: relative;
+	top: 210px;
+	padding-top: 113px;
+	padding-bottom: 150px;
+	font-size: 24px;
+	font-family: "Josefin Sans", sans-serif;
 }
 
-.main-text{
-    text-align: center;
-    position: relative;
-    top: 210px;
-    font-size: 24px;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.main-text a{
-    color:#4e7cc7;
+.main-text a {
+	color: #4e7cc7;
 }
