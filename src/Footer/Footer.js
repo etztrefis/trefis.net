@@ -3,12 +3,12 @@ import "./Footer.css";
 function Footer() {
 	return (
 		<footer>
-			<p>
+			<p style={{ paddingBottom: "20px" }}>
 				© by{" "}
 				<a href="https://t.me/trefis" target="_blank" rel="noreferrer">
 					trefis
 				</a>{" "}
-				in 2020 ·
+				in 2021 ·
 			</p>
 		</footer>
 	);
