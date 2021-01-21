@@ -28,20 +28,6 @@ function Links() {
 					id="zoomIn"
 				></Image>
 			</a>
-			<a
-				href="https://www.twitch.tv/trefis"
-				target="_blank"
-				rel="noreferrer"
-			>
-				<Image
-					src="./img/twitch_w.png"
-					rounded
-					width="50"
-					height="50"
-					style={{ marginRight: "15px", marginLeft: "15px" }}
-					id="zoomIn"
-				></Image>
-			</a>
 			<a href="mailto:trefis@pm.me" rel="noreferrer">
 				<Image
 					src="./img/email_w.png"
