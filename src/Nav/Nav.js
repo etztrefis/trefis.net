@@ -16,46 +16,49 @@ function SiteNav() {
 					className="d-inline-block align-top"
 				/>{" "}
 			</Navbar.Brand>
-			<Nav className="mr-auto" style={{ fontSize: "16px" }}>
-				<NavDropdown
-					title="peepoChat"
-					id="collasible-nav-dropdown"
-					style={{ paddingRight: "10px" }}
-				>
-					<NavDropdown.Item
-						href="https://peepochat.github.io/"
-						target="_blank"
+			<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+			<Navbar.Collapse id="responsive-navbar-nav">
+				<Nav className="mr-auto" style={{ fontSize: "16px" }}>
+					<NavDropdown
+						title="peepoChat"
+						id="collasible-nav-dropdown"
+						style={{ paddingRight: "10px" }}
 					>
-						Project
+						<NavDropdown.Item
+							href="https://peepochat.github.io/"
+							target="_blank"
+						>
+							Project
 					</NavDropdown.Item>
-					<NavDropdown.Item
-						href="https://github.com/peepoChat/peepochat.github.io"
+						<NavDropdown.Item
+							href="https://github.com/peepoChat/peepochat.github.io"
+							target="_blank"
+						>
+							Source Code
+					</NavDropdown.Item>
+					</NavDropdown>
+					<Nav.Link
+						href="https://eaterybot.trefis.net/"
 						target="_blank"
+						style={{ paddingRight: "20px" }}
 					>
-						Source Code
-					</NavDropdown.Item>
-				</NavDropdown>
-				<Nav.Link
-					href="https://eaterybot.trefis.net/"
-					target="_blank"
-					style={{ paddingRight: "20px" }}
-				>
-					EateryBot
+						EateryBot
 				</Nav.Link>
-				<NavDropdown
-					title="FeelsOkayegBot"
-					id="collasible-nav-dropdown"
-					style={{ paddingRight: "10px" }}
-				>
-					<NavDropdown.Item
-						href="https://github.com/etztrefis/feelsokayegbot"
-						target="_blank"
+					<NavDropdown
+						title="FeelsOkayegBot"
+						id="collasible-nav-dropdown"
+						style={{ paddingRight: "10px" }}
 					>
-						Source Code
+						<NavDropdown.Item
+							href="https://github.com/etztrefis/feelsokayegbot"
+							target="_blank"
+						>
+							Source Code
 					</NavDropdown.Item>
-				</NavDropdown>
-				<Nav.Link href="/about">About</Nav.Link>
-			</Nav>
+					</NavDropdown>
+					<Nav.Link href="/about">About</Nav.Link>
+				</Nav>
+			</Navbar.Collapse>
 		</Navbar>
 	);
 }
