@@ -62,7 +62,7 @@ function Links() {
 					rounded
 					width="50"
 					height="50"
-					style={{ marginRight: "15px", marginLeft: "15px" }}
+					style={{ marginRight: "15px", marginLeft: "15px", marginTop:"5px" }}
 					id="zoomIn"
 				></Image>
 			</a>

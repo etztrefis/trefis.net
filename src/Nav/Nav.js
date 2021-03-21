@@ -6,7 +6,7 @@ import "./Nav.css";
 
 function SiteNav() {
 	return (
-		<Navbar className="backgroungcolor-nav" variant="dark">
+		<Navbar className="backgroungcolor-nav" variant="dark" expand="lg">
 			<Navbar.Brand href="/" style={{ paddingRight: "10px" }}>
 				<img
 					alt=""
