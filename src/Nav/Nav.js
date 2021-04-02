@@ -41,6 +41,7 @@ function SiteNav() {
 						href="https://eaterybot.trefis.net/"
 						target="_blank"
 						style={{ paddingRight: "20px" }}
+						rel="noopener"
 					>
 						EateryBot
 				</Nav.Link>
