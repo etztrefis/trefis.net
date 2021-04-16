@@ -1,75 +1,39 @@
-import Image from "react-bootstrap/Image";
+import { dom } from '@fortawesome/fontawesome-svg-core';
 import "./Links.css";
 
 function Links() {
+	dom.watch();
 	return (
 		<div className="links-wrapper">
 			<a
 				href="https://github.com/etztrefis"
 				target="_blank"
 				rel="noreferrer"
+				className="btn"
 			>
-				<Image
-					src="./img/github_w.png"
-					rounded
-					width="50"
-					height="50"
-					style={{ marginRight: "15px", marginLeft: "15px" }}
-					id="zoomIn"
-					alt="github"
-				></Image>
+				<i className="fab fa-github"></i>
 			</a>
-			<a href="https://t.me/trefis" target="_blank" rel="noreferrer">
-				<Image
-					src="./img/telegram_w.png"
-					rounded
-					width="50"
-					height="50"
-					style={{ marginRight: "15px", marginLeft: "15px" }}
-					id="zoomIn"
-					alt="telegram"
-				></Image>
+			<a href="https://t.me/trefis" target="_blank" rel="noreferrer" className="btn">
+				<i className="fab fa-telegram"></i>
 			</a>
-			<a href="mailto:trefis@pm.me" rel="noreferrer">
-				<Image
-					src="./img/email_w.png"
-					rounded
-					width="50"
-					height="50"
-					style={{ marginRight: "15px", marginLeft: "15px" }}
-					id="zoomIn"
-					alt="e-mail"
-				></Image>
+			<a href="mailto:trefis@pm.me" rel="noreferrer" className="btn">
+				<i className="fa fa-envelope"></i>
 			</a>
 			<a
 				href="https://open.spotify.com/user/zvzyps3iv90o8t95i4b6d647i?si=4d18QvmKTnWrsy0UY3TtSQ"
 				target="_blank"
 				rel="noreferrer"
+				className="btn"
 			>
-				<Image
-					src="./img/spotify_w.png"
-					rounded
-					width="50"
-					height="50"
-					style={{ marginRight: "15px", marginLeft: "15px" }}
-					id="zoomIn"
-					alt="spotify"
-				></Image>
+				<i className="fab fa-spotify"></i>
 			</a>
 			<a
 				href="https://www.youtube.com/channel/UCIUot9hixio0F6NbyPMImLA"
 				target="_blank"
 				rel="noreferrer"
+				className="btn"
 			>
-				<Image
-					src="./img/youtube_w.png"
-					rounded
-					width="50"
-					height="50"
-					style={{ marginRight: "15px", marginLeft: "15px", marginTop:"5px" }}
-					id="zoomIn"
-					alt="youtube"
-				></Image>
+				<i className="fab fa-youtube"></i>
 			</a>
 		</div>
 	);
