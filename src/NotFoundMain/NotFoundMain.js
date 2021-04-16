@@ -8,9 +8,9 @@ function NotFoundMain() {
 				width="200"
 				height="200"
 				alt="Gigachad"
-				className="main-img"
+				className="main-img-404"
 			/>
-			<p className="main-text">
+			<p className="main-text-404">
 				PAGE DOESN`T EXISTS.
 				<br />
 				YES, THIS IS 404 ERROR. HOW COULD YOU TELL?
