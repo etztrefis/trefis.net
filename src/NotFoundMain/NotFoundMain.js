@@ -1,3 +1,4 @@
+import React from "react";
 import "./NotFoundMain.css";
 
 function NotFoundMain() {
@@ -11,7 +12,7 @@ function NotFoundMain() {
 				className="main-img-404"
 			/>
 			<p className="main-text-404">
-				PAGE DOESN`T EXISTS.
+				PAGE DOESN&apos;T EXISTS.
 				<br />
 				YES, THIS IS 404 ERROR. HOW COULD YOU TELL?
 			</p>

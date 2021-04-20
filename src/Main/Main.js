@@ -1,3 +1,4 @@
+import React from "react";
 import "./Main.css";
 
 function Main() {
@@ -11,7 +12,7 @@ function Main() {
 				className="main-img"
 			/>
 			<p className="main-text">
-				HELLO THERE. I'M <a href="https://trefis.net/about">TREFIS</a>.
+				HELLO THERE. I&apos;M <a href="https://trefis.net/about">TREFIS</a>.
 				WEB DEVELOPER & SOFTWARE ENGINEER
 			</p>
 		</div>

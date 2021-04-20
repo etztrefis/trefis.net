@@ -1,3 +1,4 @@
+import React from "react";
 import Nav from "./Nav/Nav.js";
 import Footer from "./Footer/Footer.js";
 import NotFoundMain from "./NotFoundMain/NotFoundMain.js";

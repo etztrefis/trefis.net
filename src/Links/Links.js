@@ -1,4 +1,5 @@
-import { dom } from '@fortawesome/fontawesome-svg-core';
+import React from "react";
+import { dom } from "@fortawesome/fontawesome-svg-core";
 import "./Links.css";
 
 function Links() {
